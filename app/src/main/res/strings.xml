@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ब्राह्मण Downloader</string>
+    <string name="downloads">Downloads</string>
+    <string name="settings">Settings</string>
+    <string name="search">Search</string>
+    <string name="download">Download</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear_all">Clear All</string>
+    <string name="no_downloads">No downloads yet</string>
+    <string name="paste_link">Paste a link to get started</string>
+
+    <string-array name="audio_formats">
+        <item>MP3</item>
+        <item>M4A</item>
+        <item>OPUS</item>
+        <item>FLAC</item>
+        <item>WAV</item>
+        <item>AAC</item>
+    </string-array>
+
+    <string-array name="video_formats">
+        <item>MP4</item>
+        <item>WEBM</item>
+        <item>MKV</item>
+    </string-array>
+</resources>

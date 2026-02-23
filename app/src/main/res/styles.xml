@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main App Theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryVariant">@color/red</item>
+        <item name="colorOnPrimary">@color/text</item>
+        <item name="colorSecondary">@color/green</item>
+        <item name="colorOnSecondary">@color/bg</item>
+        <item name="android:colorBackground">@color/bg</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text</item>
+        <item name="colorError">@color/red</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">@color/surface</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+    </style>
+
+    <!-- Bottom Sheet Theme -->
+    <style name="BottomSheetTheme" parent="Theme.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="android:colorBackground">@color/surface</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Widget.MaterialComponents.BottomSheet">
+        <item name="android:background">@color/surface</item>
+        <item name="backgroundTint">@color/surface</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeBottomSheet</item>
+    </style>
+
+    <style name="ShapeBottomSheet">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">20dp</item>
+        <item name="cornerSizeTopRight">20dp</item>
+    </style>
+
+    <!-- Quality Chip Style -->
+    <style name="QualityChip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="android:textColor">@color/text</item>
+        <item name="chipBackgroundColor">@color/surface2</item>
+        <item name="chipStrokeColor">@color/border</item>
+        <item name="chipStrokeWidth">1.5dp</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="chipCornerRadius">8dp</item>
+    </style>
+
+    <!-- Adjust Chip Style -->
+    <style name="AdjustChip" parent="Widget.MaterialComponents.Chip.Filter">
+        <item name="android:textColor">@color/text</item>
+        <item name="chipBackgroundColor">@color/surface2</item>
+        <item name="chipStrokeColor">@color/border</item>
+        <item name="chipStrokeWidth">1.5dp</item>
+        <item name="chipCornerRadius">8dp</item>
+        <item name="checkedIconVisible">false</item>
+    </style>
+
+</resources>
