@@ -6,9 +6,9 @@ import android.app.NotificationManager;
 import android.os.Build;
 import android.util.Log;
 
-import com.yausername.ffmpeg.FFmpeg;
-import com.yausername.youtubedl_android.YoutubeDL;
-import com.yausername.youtubedl_android.YoutubeDLException;
+import io.github.junkfood02.ffmpeg.FFmpeg;
+import io.github.junkfood02.youtubedl_android.YoutubeDL;
+import io.github.junkfood02.youtubedl_android.YoutubeDLException;
 
 public class App extends Application {
 
