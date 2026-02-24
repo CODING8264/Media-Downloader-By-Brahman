@@ -11,9 +11,9 @@ import android.util.Log;
 
 import androidx.core.app.NotificationCompat;
 
-import com.yausername.youtubedl_android.YoutubeDL;
-import com.yausername.youtubedl_android.YoutubeDLRequest;
-import com.yausername.youtubedl_android.YoutubeDLResponse;
+import io.github.junkfood02.youtubedl_android.YoutubeDL;
+import io.github.junkfood02.youtubedl_android.YoutubeDLRequest;
+import io.github.junkfood02.youtubedl_android.YoutubeDLResponse;
 
 import java.io.File;
 import java.util.ArrayList;
