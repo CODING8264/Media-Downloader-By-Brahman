@@ -34,9 +34,9 @@ import com.google.android.material.button.MaterialButton;
 import com.google.android.material.chip.Chip;
 import com.google.android.material.chip.ChipGroup;
 import com.google.android.material.textfield.TextInputEditText;
-import com.yausername.youtubedl_android.YoutubeDL;
-import com.yausername.youtubedl_android.YoutubeDLRequest;
-import com.yausername.youtubedl_android.YoutubeDLResponse;
+import io.github.junkfood02.youtubedl_android.YoutubeDL;
+import io.github.junkfood02.youtubedl_android.YoutubeDLRequest;
+import io.github.junkfood02.youtubedl_android.YoutubeDLResponse;
 
 import org.json.JSONObject;
 
