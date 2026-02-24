@@ -11,6 +11,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        // Still needed for Glide and other libs
         maven { url 'https://jitpack.io' }
     }
 }
